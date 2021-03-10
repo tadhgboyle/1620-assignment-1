@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root {
+    --main-background: #e0def4;
+    --secondary-background: #ebbcba;
+    --main-text: #26233a;
+    --secondary-text: #555169;
+}
+
+/* Zeroing */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+/* General text rules */
+
+p, a, li {
+    color: var(--main-text);
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-text);
+    text-decoration: underline;
+}
+
+nav {
+    background-color: var(--secondary-background);
+    text-align: right;
+    padding: 15px;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Create 3 columns for our main section */
+
+.wrapper {
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-areas: ". a a ." ". a a .";
+}
+
+/* Make the "+ create new note" button reside in the center of the main section */
+
+.new-note {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+}
+
+.new-note>p {
+    padding-top: 8px;
+    display: inline-block;
+}
+
+/* plus sign class based off of: https://stackoverflow.com/a/55281827/4379311 */
+
+.plus {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(var(--main-text), var(--main-text)), linear-gradient(var(--main-text), var(--main-text)), var(--main-background);
+    background-position: center;
+    background-size: 50% 2px, 2px 50%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+footer {
+    background-color: var(--secondary-background);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 15px;
+}
