@@ -4,6 +4,7 @@
     --secondary-background: #ebbcba;
     --main-text: #26233a;
     --secondary-text: #555169;
+    --burger-padding: 10px;
 }
 
 /* Zeroing */
@@ -50,7 +51,7 @@ li {
 .wrapper {
     display: grid;
     grid-auto-rows: 200px;
-    grid-template-areas: ". a a ." ". a a .";
+    grid-template-areas: "b a a ." ". a a .";
 }
 
 /* Make the "+ create new note" button reside in the center of the main section */
@@ -59,6 +60,7 @@ li {
     grid-area: a;
     align-self: center;
     justify-self: center;
+    margin-left: -45px; /* Janky, undo padding which the burger menu gave */
 }
 
 .new-note>p {
@@ -76,6 +78,21 @@ li {
     background-size: 50% 2px, 2px 50%;
     background-repeat: no-repeat;
     float: left;
+}
+
+.hamburger-button {
+    grid-area: b;
+    padding-left: 10px;
+    
+}
+
+/* Three lines stacked will create hamburger icon */
+
+.line {
+    width: 30px;
+    height: 4px;
+    background-color: var(--secondary-text);
+    margin: 6px 0;
 }
 
 footer {
