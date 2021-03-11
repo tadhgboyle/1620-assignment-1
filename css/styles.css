@@ -4,7 +4,8 @@
     --secondary-background: #ebbcba;
     --main-text: #26233a;
     --secondary-text: #555169;
-    --burger-padding: 10px;
+    --textarea-background: #f2e9de;
+    --delete-button: #eb6f92;
 }
 
 /* Zeroing */
@@ -60,12 +61,33 @@ li {
     grid-area: a;
     align-self: center;
     justify-self: center;
-    margin-left: -45px; /* Janky, undo padding which the burger menu gave */
+    margin-left: -45px;
+    /* Janky, undo padding which the burger menu gave */
 }
 
 .new-note>p {
     padding-top: 8px;
     display: inline-block;
+}
+
+.new-note>textarea {
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--textarea-background);
+    color: var(--secondary-text);
+    margin-top: 300px;
+    border: none;
+}
+
+.note-buttons {
+    text-align: right;
+}
+
+.note-buttons>a {
+    padding: 10px 10px;
+}
+
+.note-buttons>.delete {
+    color: var(--delete-button);
 }
 
 /* plus sign class based off of: https://stackoverflow.com/a/55281827/4379311 */
@@ -83,7 +105,6 @@ li {
 .hamburger-button {
     grid-area: b;
     padding-left: 10px;
-    
 }
 
 /* Three lines stacked will create hamburger icon */
