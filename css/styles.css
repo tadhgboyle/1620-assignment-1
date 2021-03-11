@@ -42,7 +42,7 @@ nav>ul {
     list-style: none;
 }
 
-li {
+.nav>li {
     display: inline;
     margin: 0 10px;
 }
@@ -52,7 +52,7 @@ li {
 .wrapper {
     display: grid;
     grid-auto-rows: 200px;
-    grid-template-areas: "b a a ." ". a a .";
+    grid-template-areas: "b a a ." "b a a .";
 }
 
 /* Make the "+ create new note" button reside in the center of the main section */
@@ -71,6 +71,8 @@ li {
 }
 
 .new-note>textarea {
+    padding-top: 5px;
+    padding-left: 10px;
     font-family: 'Roboto Mono', monospace;
     background-color: var(--textarea-background);
     color: var(--secondary-text);
@@ -78,7 +80,16 @@ li {
     border: none;
 }
 
+.new-note>textarea:focus {
+    outline: 3px solid var(--secondary-background);
+}
+
+.use-desktop {
+    display: none;
+}
+
 .note-buttons {
+    margin-top: 5px;
     text-align: right;
 }
 
@@ -107,6 +118,23 @@ li {
     padding-left: 10px;
 }
 
+.hamburger-menu {
+    grid-area: b;
+    text-align: center;
+    background-color: var(--textarea-background);
+    min-height: 90vh;
+}
+
+.hamburger-menu>p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.note-list {
+    list-style-type: disc;
+}
+
 /* Three lines stacked will create hamburger icon */
 
 .line {
@@ -124,4 +152,13 @@ footer {
     bottom: 0;
     text-align: center;
     padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .new-note {
+        display: none;
+    }
+    .use-desktop {
+        display: block;
+    }
 }
