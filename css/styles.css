@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 :root {
-    --main-background: #e0def4;
-    --secondary-background: #ebbcba;
-    --main-text: #26233a;
-    --secondary-text: #555169;
-    --textarea-background: #f2e9de;
-    --delete-button: #eb6f92;
+    --main-background: #d6cd6b;
+    --secondary-background: #d6cd6b;
+    --main-text: #d6cd6b;
+    --secondary-text: #d6cd6b;
+    --textarea-background: #d6cd6b;
+    --delete-button: #d6cd6b;
 }
 
 /* Zeroing */
