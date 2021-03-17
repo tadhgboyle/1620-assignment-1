@@ -1,0 +1,54 @@
+# This is the main configuration file for Yatopia.
+# Yatopia contains many breaking changes and settings, so know what you are doing!
+# You have been warned!
+
+verbose: false
+brand-name: Yatopia
+config-version: 1
+settings:
+  log-player-login-location: true
+  disableEntityStuckChecks: false
+  fixFallDistance: false
+  itemStuckSleepTicks: 1
+  fire-block-physics-event: true
+  pistonPushLimit: 12
+  fix-protocollib: true
+  tick:
+    enchanting-tables: false
+  checks:
+    moved-quickly: true
+    moved-wrongly: true
+    vehicle-moved-quickly: true
+    vehicle-moved-wrongly: true
+    flight: true
+    vehicle-flight: true
+  villager:
+    simplerVillagerBehavior: false
+    villagersHideAtNight: false
+  criterion-triggers:
+    location: true
+    enter-block: true
+    tick: true
+  intervals:
+    player-time-statistics: 1
+worlds:
+  default:
+    tick-empty-hoppers: false
+    disable-observer-clocks: false
+    fast-feature-search-dont-load-chunk: false
+    pigmen:
+      dont-target-unless-hit: false
+    ticks-per:
+      full-hopper-cooldown: 128
+    collisions:
+      players: true
+      animals: true
+      ambient: true
+      monsters: true
+      villagers: true
+      pillagers: true
+      iron-golems: true
+      misc: true
+      items: true
+      water-creature: true
+      water-ambient: true
