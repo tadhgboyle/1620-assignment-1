@@ -1,0 +1,51 @@
+[02:57:17] [main/INFO]: [STDOUT]: No global eula found at C:\Users\rerri\eula.txt
+[02:57:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:57:18] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[02:57:18] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[02:57:19] [Worker-Main-5/INFO]: Loaded 7 recipes
+[02:57:21] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[02:57:21] [Server thread/INFO]: Loading properties
+[02:57:21] [Server thread/INFO]: This server is running Yatopia version git-Yatopia-ver/1.16.5-42 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[02:57:21] [Server thread/INFO]: Debug logging is disabled
+[02:57:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:57:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:57:21] [Server thread/INFO]: Default game type: SURVIVAL
+[02:57:21] [Server thread/INFO]: Generating keypair
+[02:57:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:57:21] [Server thread/INFO]: Using default channel type
+[02:57:21] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
+[02:57:21] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[02:57:22] [Server thread/INFO]: Preparing level "world"
+[02:57:27] [Server thread/WARN]: Unable to find spawn biome
+[02:57:28] [Server thread/WARN]: Unable to find spawn biome
+[02:57:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:57:28] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[02:57:28] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[02:57:28] [Server thread/INFO]: Time elapsed: 414 ms
+[02:57:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:57:29] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[02:57:29] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:57:29] [Server thread/INFO]: Time elapsed: 452 ms
+[02:57:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:57:29] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[02:57:29] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[02:57:29] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[02:57:30] [Server thread/INFO]: Time elapsed: 786 ms
+[02:57:30] [Server thread/INFO]: Running delayed init tasks
+[02:57:30] [Server thread/INFO]: Done (9.039s)! For help, type "help"
+[02:57:30] [Server thread/INFO]: Timings Reset
+[02:57:45] [Server thread/INFO]: Stopping server
+[02:57:45] [Server thread/INFO]: Saving players
+[02:57:45] [Server thread/INFO]: Saving worlds
+[02:57:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:57:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:57:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:57:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:57:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:57:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:57:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:57:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:57:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:57:48] [Server thread/INFO]: Flushing Chunk IO
+[02:57:48] [Server thread/INFO]: Closing Thread Pool
+[02:57:48] [Server thread/INFO]: Closing Server
