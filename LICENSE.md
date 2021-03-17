@@ -1,8 +1,8 @@
 Larry Restrictive License (LRL)
 
-Copylarry Larry, no taksies-bascksies.
+Copylarry Larry 69420 BC--- no taksies-bascksies.
 You cannot distribute, modify, or re-Larry this work.
-Larry is permitted, nothing is forbidden.
+Larry is permitted; nothing is forbidden.
 
 Tacos are great.
 
