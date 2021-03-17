@@ -1,0 +1,22 @@
+# This workflow will make larry do your homework for you
+# For more information see: https://help.github.com/actions/
+
+name: LarrysMom
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: 🌮
+
+    steps:
+      - uses: hand
+      - name: Type
+        uses: Whatever you want him to use
+        with:
+          braincells--
