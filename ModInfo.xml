@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Cucumbered" />
+		<Description value="Changes all 'encumb' text into 'cucumb'." />
+		<Author value="moriakGG" />
+		<Version value="1.2" />
+		<Website value="https://www.nexusmods.com/7daystodie/mods/437" />
+	</ModInfo>
+</xml>
